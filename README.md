@@ -22,17 +22,10 @@ sobre el estudiante, su familia y su colegio, sin usar los puntajes por materia.
 | `requirements.txt` | Librerías y versiones necesarias |
 | `notebook/` | Notebook con todo el proceso CRISP-DM |
 
-## Cómo ejecutar la aplicación en tu computador
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
-
 ## Aplicación en línea
-URL: _(pegar aquí la URL de Streamlit Community Cloud)_
+URL: https://saber11icfes-sintymmn5xcdqhfaobhk5m.streamlit.app/
 
 ## Limitaciones
-- El modelo encuentra asociaciones, no causas.
 - Los índices socioeconómicos del ICFES (INSE y nivel del colegio) no los conoce un usuario común;
   en la aplicación se sugiere un valor típico.
 - Tiende a clasificar como Bajo o Alto a parte de los estudiantes de nivel Medio.
